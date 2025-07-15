@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Recipe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-6 text-gray-800">
+    <h1 class="text-3xl font-bold mb-4">➕ Add New Recipe</h1>
+    <form method="post" class="space-y-4 max-w-xl">
+        <div>
+            <label class="block">Recipe Name</label>
+            <input type="text" name="title" class="border w-full px-4 py-2 rounded-md">
+        </div>
+        <div>
+            <label class="block">Ingredients</label>
+            <textarea name="ingredients" class="border w-full px-4 py-2 rounded-md"></textarea>
+        </div>
+        <div>
+            <label class="block">Instructions</label>
+            <textarea name="instructions" class="border w-full px-4 py-2 rounded-md"></textarea>
+        </div>
+        <div>
+            <label class="block">Category</label>
+            <select name="category" class="border w-full px-4 py-2 rounded-md">
+                <option value="veg">Veg</option>
+                <option value="nonveg">Nonveg</option>
+                <option value="starters">Starters</option>
+                <option value="dessert">Dessert</option>
+                <option value="maincourse">Main Course</option>
+            </select>
+        </div>
+        <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded-md">Add Recipe</button>
+    </form>
+    <a href="/recipes" class="block mt-4 text-blue-500">Back to All Recipes</a>
+</body>
+</html>
