@@ -109,8 +109,3 @@ recipe-ideas-app/
 * Integrate pagination or search autocomplete.
 * Host the app online (Heroku, Vercel, or PythonAnywhere).
 
----
-
-## 🤝 Acknowledgments
-
-This project was structured and built as a learning exercise for full-stack development using Python Flask and SQLite.
